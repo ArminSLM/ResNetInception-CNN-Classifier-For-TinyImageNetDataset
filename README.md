@@ -2,7 +2,7 @@
 CNN-based image classification using a ResNet-Inception hybrid model on the TinyImageNet dataset, including extensive hyperparameter tuning and performance comparison
 ## 📦 Part 1: Dataset Preprocessing and Custom Dataloader
 
-This section focuses on preparing the **TinyImageNet-200** dataset for training a CNN classifier. It includes downloading the dataset from Kaggle, parsing and organizing the files, converting them into a standard structure for PyTorch `ImageFolder`, and performing initial visualization for verification.
+This section focuses on preparing the **TinyImageNet-200** dataset for training a CNN classifier. It includes downloading the dataset from Kaggle, parsing and organizing the files, converting them into a standard structure for PyTorch `ImageFolder`, and performing initial visualization for  verification.
 
 ---
 
@@ -18,7 +18,7 @@ After running the preprocessing script, the dataset is reorganized into a custom
 │       └── images...
 ├── test/
 │   └── unknown/
-        └── images...</code> </pre>
+        └── images...</code> </pre> 
 
 
 This format allows efficient loading using `torchvision.datasets.ImageFolder`.
@@ -228,7 +228,7 @@ were visualized to track progress and convergence.
 ---
 
 ## 🔁 Early Stopping Logic
-Early stopping was implemented inside the `trainModel()` function. The model stops training once validation loss fails to improve for **5 consecutive epochs**, ensuring better generalization and reduced overfitting.
+Early stopping was implemented inside the  `trainModel()` function. The model stops training once validation loss fails to improve for **5 consecutive epochs**, ensuring better generalization and reduced overfitting.
 
 ---
 
