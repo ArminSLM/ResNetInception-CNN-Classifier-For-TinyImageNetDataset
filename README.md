@@ -128,7 +128,7 @@ In this stage, we aimed to find the optimal **learning rate (LR)** for training 
 - Using a scheduler effectively controls the training dynamics and **prevents overfitting**.
 - This setup will be used as the baseline for the next steps in model tuning.
 
-# 🧪 Part 4: Investigating the Effect of Dropout and Batch Normalization
+# 🧪 Part 3: Investigating the Effect of Dropout and Batch Normalization
 
 In this part, we explore the impact of incorporating **Dropout** and **Batch Normalization** into the ResIncepCNN model.
 
@@ -179,7 +179,7 @@ The following figure shows the **loss**, **Top-1 accuracy**, and **Top-5 accurac
 
 Applying **Dropout** and **Batch Normalization** to our hybrid ResIncepCNN architecture effectively enhances model performance and generalization on the validation set. This setup can be a strong candidate for further experiments or deployment.
 
-# 📦 Part 5: Integrating Early Stopping with ResNet-Inception and Dropout + Batch Normalization
+# 📦 Part 4: Integrating Early Stopping with ResNet-Inception and Dropout + Batch Normalization
 
 ## 🧠 Objective
 This stage enhances the model training by introducing **Early Stopping** to the best architecture so far (a combined ResNet-Inception CNN enhanced with **Dropout** and **Batch Normalization**) to prevent overfitting and reduce unnecessary training epochs.
