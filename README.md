@@ -18,7 +18,7 @@ After running the preprocessing script, the dataset is reorganized into a custom
 │       └── images...
 ├── test/
 │   └── unknown/
-        └── images...</code> </pre>
+        └── images...</code> </pre> 
 
 
 This format allows efficient loading using `torchvision.datasets.ImageFolder`.
@@ -228,7 +228,7 @@ were visualized to track progress and convergence.
 ---
 
 ## 🔁 Early Stopping Logic
-Early stopping was implemented inside the `trainModel()` function. The model stops training once validation loss fails to improve for **5 consecutive epochs**, ensuring better generalization and reduced overfitting.
+Early stopping was implemented inside the  `trainModel()` function. The model stops training once validation loss fails to improve for **5 consecutive epochs**, ensuring better generalization and reduced overfitting.
 
 ---
 
