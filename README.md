@@ -2,7 +2,7 @@
 CNN-based image classification using a ResNet-Inception hybrid model on the TinyImageNet dataset, including extensive hyperparameter tuning and performance comparison
 ## 📦 Part 1: Dataset Preprocessing and Custom Dataloader
 
-This section focuses on preparing the **TinyImageNet-200** dataset for training a CNN classifier. It includes downloading the dataset from Kaggle, parsing and organizing the files, converting them into a standard structure for PyTorch `ImageFolder`, and performing initial visualization for  verification.
+This section focuses on preparing the **TinyImageNet-200** dataset for training a CNN classifier. It includes downloading the dataset from Kaggle, parsing and organizing the files, converting them into a standard structure for PyTorch `ImageFolder`, and  performing initial visualization for  verification.
 
 ---
 
